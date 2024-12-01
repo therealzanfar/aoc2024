@@ -39,7 +39,8 @@ classifiers = [
 
 # https://pypi.org/classifiers/
 [tool.poetry.scripts]
-aoc_template = 'aoc_template.__main__:cli_main'
+aoc = "aoc2024.__main__:cli"
+aoc2024 = "aoc2024.__main__:cli"
 
 [tool.poetry.dependencies]
 python = "^3.12"
