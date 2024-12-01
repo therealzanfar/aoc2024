@@ -3,6 +3,8 @@
 from collections import Counter
 from typing import Optional
 
+from aoc2024.utils import input_integer_series
+
 
 def parse_location_lists(input_: str) -> dict[str, list[int]]:
     """Parse the Day 1 input into a pair of integer lists."""
@@ -11,11 +13,9 @@ def parse_location_lists(input_: str) -> dict[str, list[int]]:
         "B": [],
     }
 
-    for line in input_.splitlines():
-        a_str, b_str = line.strip().split()
-
-        locations["A"].append(int(a_str))
-        locations["B"].append(int(b_str))
+    for a, b in input_integer_series(input_):
+        locations["A"].append(a)
+        locations["B"].append(b)
 
     return locations
 
