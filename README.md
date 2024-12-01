@@ -1,4 +1,4 @@
-# AOC2024
+# AoC2024
 
 Solutions to the 2024 Advent of Code
 

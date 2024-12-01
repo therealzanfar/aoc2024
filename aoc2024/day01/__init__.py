@@ -1,1 +1,1 @@
-"""AOC 2024 Day 1 Solutions."""
+"""AoC 2024 Day 1 Solutions."""

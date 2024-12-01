@@ -1,4 +1,4 @@
-"""General tools for working with AOC puzzles."""
+"""General tools for working with AoC puzzles."""
 
 from typing import Iterator, Tuple
 

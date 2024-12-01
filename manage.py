@@ -61,7 +61,7 @@ def _get_puzzle_input(year: int, day: int) -> str:
 @click.group(context_settings=CLICK_CONTEXT)
 @click.option("-v", "--verbose", count=True)
 def manage(verbose: int = 0) -> int:
-    """Manage the AOC Package."""
+    """Manage the AoC Package."""
     args = locals().items()
     setup_logging(verbose)
     logger = logging.getLogger(__name__)

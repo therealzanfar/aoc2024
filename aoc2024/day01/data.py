@@ -1,4 +1,4 @@
-"""AOC 2024 Day 1 example data and input functions."""
+"""AoC 2024 Day 1 example data and input functions."""
 
 from aoc2024.data import Example, get_puzzle_input
 

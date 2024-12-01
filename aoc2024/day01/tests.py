@@ -1,4 +1,4 @@
-"""AOC 2024 Day 1 example tests."""
+"""AoC 2024 Day 1 example tests."""
 
 import pytest
 

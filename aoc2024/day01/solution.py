@@ -1,4 +1,4 @@
-"""AOC 2024 Day 1 solutions."""
+"""AoC 2024 Day 1 solutions."""
 
 from collections import Counter
 from typing import Optional
